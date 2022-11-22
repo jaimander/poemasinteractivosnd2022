@@ -1,0 +1,203 @@
+  @import url(//fonts.googleapis.com/css?family=Manrope);
+  @import url(//fonts.googleapis.com/css?family=Rajdhani);
+
+body{
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #D6D58E;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+
+.titulo{
+  width: 100%;
+  margin: 0;
+  background-color: rgb(195, 253, 36);
+  font-family: 'Rajdhani', sans-serif;
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+
+}
+
+.titulo p{
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+ /*
+  outline-style: solid;
+  outline-width: 2px;
+  */
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.descripcion{
+  width: 100%;
+  margin: 0;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  background-color: rgb(228, 255, 152);
+  position: relative;
+}
+
+.descripcion p{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+  
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+.indicacion{
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 4px;
+ 
+  position: relative;
+}
+
+.indicacion p{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+ text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.galeria{
+  position: relative;
+  display:flex; /*Enables flexbox code */
+  flex-direction:row; /* Axis or cross axis and defines the direction of the flex items*/
+  flex-wrap:wrap; /* determine how the flex items behave when the flex container is too small*/
+  justify-content: center; /* Aligns the content in the display*/
+  gap:15px; /* Creates space between content/objects */
+  margin-top: 20px;
+}
+
+
+.galeria{
+  position: relative;
+  display:grid; 
+  grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+  grid-gap: 16px;
+  justify-content: center;
+  padding: initial;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+
+.caja-poema{
+  position: relative;
+  /*outline-style: solid;*/
+  max-width:250px;
+  height: 250px;
+  width:100%;
+  object-fit:cover;
+  outline-style: solid;
+  outline-color: rgb(0, 0, 0);
+  outline-width: 2px;
+ }
+
+ .caja-poema img{
+  width:100%;
+  max-width:100%;
+  object-fit:cover;
+  height:100%;
+  
+ }
+
+.nombre{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0px;
+  left: 0px;
+  background-color: #042940;
+  outline-style: solid;
+  outline-width: 2px;
+  color: rgb(255, 255, 255);
+  outline-color: rgb(0, 0, 0);
+  font-size: 20px;
+  overflow: hidden;
+ }
+ 
+ .nombre p{
+   margin: 0px 10px 0px 10px;
+   padding-left: 5px;
+   padding-right: 5px;
+   font-size: 20px;
+   overflow: hidden;
+   width: 100%;
+ }
+
+/*
+.contenedor-poemas{
+  outline-style: solid;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.caja-poema{
+ position: relative;
+ outline-style: solid;
+}
+
+.caja-poema img{
+ position: relative;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+.nombre{
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ background-color: rgb(255, 255, 255);
+}
+
+.nombre p{
+  margin: 0px 10px 0px 10px;
+}
+*/
+
+/*
+
+.nombre{
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+}
+
+.nombre p{
+  font-size: 25px;
+}
+
+
+
+
+*/
